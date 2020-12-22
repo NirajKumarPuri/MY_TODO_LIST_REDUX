@@ -1,0 +1,87 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+}
+.headingbox{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.heading{
+    width: 100%;
+    margin: 0;
+    font-size: 40px;
+}
+.inputbox{
+    width: 90%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input{
+    width: 70%;
+    font-size: 16px;
+}
+.button{
+    width: 20%;
+    font-size: 16px;
+}
+.content2{
+    width: 80%;
+    margin-top: 40px;
+}
+.box{
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+
+}
+.para{
+    width: 40%;
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+.delete{
+    width: 28%;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: red;
+}
+@media(min-width:768px){
+    .inputbox{
+        width: 60%;
+    }
+    .para{
+        font-size: 32px;
+    }
+    .delete{
+        width: 16%;
+        font-size: 24px;
+    }
+    .content2{
+        width: 70%;
+    }
+}
+@media(min-width:1024px){
+    .input{
+        font-size: 32px;
+    }
+    .button{
+        font-size: 32px;
+    }
+    .content2{
+        width: 80%;
+    }
+}
